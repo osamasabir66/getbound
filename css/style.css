@@ -613,3 +613,12 @@
     border: 5px solid #44b2da;
     border-bottom: none;
 }
+
+.imgborder{
+    border: 5px solid #edf1fc;
+    border-bottom: none;
+}
+
+.customheight{
+    min-height: 250px;
+}
