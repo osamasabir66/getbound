@@ -670,7 +670,7 @@
             transform: scale(1.05);
         }
 
-        .logo::before {
+        /* .logo::before {
             content: '>';
             margin-right: 0.5rem;
             color: var(--primary-orange);
@@ -686,6 +686,12 @@
             content: '_';
             animation: blink 1s infinite;
             color: var(--primary-cyan);
+        } */
+
+        .logo img {
+            width: 200px;
+            position: relative;
+            top: 10px;
         }
 
         @keyframes blink {
