@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GetBound - The Future of Team Collaboration</title>
-    <link href="style.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link href="images/icon.ico" rel="icon">
 
+    <link href="style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body id="top">
     <!-- Enhanced Background Elements -->
@@ -89,18 +93,33 @@
         </div>
         <nav class="mobile-menu-nav">
             <ul>
+                <li><a href="#stats">About Us</a></li>
                 <li>
                     <div class="dropdown">
                     <button class="dropbtn">Services</button>
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="#">Cyber Strategy & Governance</a>
+                            <a href="#">24/7 Managed Cyber Defense</a>
+                            <a href="#">OT & Critical Infrastructure Security</a>
+                            <a href="#">Offensive & Defensive Security Operations</a>
                         </div>
                     </div>
                 </li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#stats">Stats</a></li>
+                <li>
+                    <div class="dropdown">
+                    <button class="dropbtn">INDUSTRY</button>
+                        <div class="dropdown-content seconddd" style="padding-top: 12px;">
+                            <b>Defense & National Security:</b>
+                            <a href="#">Nation-state threat protection</a>
+                            <a href="#">Mission assurance </a>
+                            <a href="#" style="padding-bottom: 12px;">Sovereign security posture</a>
+                            <b>Oil, Gas & Energy:</b>
+                            <a href="#">OT/ICS protection</a>
+                            <a href="#">Safety and uptime</a>
+                            <a href="#">Regulatory resilience</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -131,7 +150,7 @@
                     <span class="stat-label">Protected Digital & Industrial Assets</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">99.9%</span>
+                    <span class="stat-number">99%</span>
                     <span class="stat-label">Operational Uptime & Availability</span>
                 </div>
                 <div class="stat-item">
@@ -145,6 +164,30 @@
             </div>
         </div>
     </section>
+
+
+
+   <!-- Aboutus Section -->
+    <section class="customsection fade-up" id="aboutus">
+        <div class="container">
+            <div class="row" style="display: flex;align-items: center;">
+            <div class="col-md-6">
+                <img class="sectionimages" src="images/aboutus.jpg"/>
+            </div>
+            <div class="col-md-6 sectiontext">
+                <h2>About Us</h2>
+                <p>GetBound - Your Fastest Path to the GCC & International Market</p>
+                <p>GetBound is a regional go-to-market partner for cybersecurity and safety technology vendors who want real market access, not theoretical partnerships. We help small and mid-size vendors enter and scale in international markets by removing the hardest barriers: local compliance, channel access, technical validation, and customer trust.</p>
+                <p>We do not experiment.</p>
+                <p>We execute.</p>
+            </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+
 
     <!-- Features Section -->
     <section class="features fade-up" id="features">
@@ -194,53 +237,115 @@
         </div>
     </section>
 
+
+
+   <!-- Who We Work Section -->
+    <section class="customsection fade-up" id="whowework">
+        <div class="container">
+            <div class="row" style="display: flex;align-items: center;">
+            <div class="col-md-7">
+                <img class="sectionimages" src="images/whowework.jpg"/>
+            </div>
+            <div class="col-md-5 sectiontext">
+                <h2>Who We Work With</h2>
+                <p>We partner with cybersecurity, safety, and critical-infrastructure technology vendors that:</p>
+                <ul>
+                    <li>Have a technically solid product</li>
+                    <li>Want access to GCC and international customers</li>
+                    <li>Need local credibility, compliance alignment, and delivery capability</li>
+                    <li>Prefer low-cost, fast, structured market entry over building local entities</li>
+                    <li>If your product is complex, regulated, or mission-critical — you belong here.</li>
+                </ul>
+            </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+
+   <!-- WhatDoes Section -->
+    <section class="customsection fade-up" id="whowework">
+        <div class="container">
+            <div class="row" style="display: flex;align-items: center;">
+                
+            <div class="col-md-5 sectiontext">
+                <h2>What GetBound Does</h2>
+                <p>GetBound acts as your regional market engine:</p>
+                <ul>
+                    <li>We open doors</li>
+                    <li>We position your solution correctly</li>
+                    <li>We enable local partners</li>
+                    <li>We run technical engagements</li>
+                    <li>We help close real deals</li>
+                    <li>We support delivery and expansion</li>
+                    <li>You stay focused on the product.</li>
+                    <li>We handle the market.</li>
+
+                </ul>
+            </div>
+            <div class="col-md-7">
+                <img class="sectionimages" src="images/whatdoes.jpg"/>
+            </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+
+
+
     <!-- Pricing Section -->
-    <!-- <section class="pricing fade-up" id="pricing">
+     <section class="pricing fade-up" id="pricing">
         <div class="pricing-container">
             <div class="section-header">
-                <h2 class="section-title">PLANS</h2>
-                <p class="section-subtitle">Choose your gateway to the future of collaboration</p>
+                <h2 class="section-title">How GetBound Partnership Works</h2>
             </div>
             
             <div class="pricing-grid">
                 <div class="pricing-card">
-                    <div class="plan-name">Essential Defense</div>
-                    <div class="plan-price">$49</div>
-                    <div class="plan-period">Organizations starting cyber maturity journey</div>
+                    <div class="plan-name">Market & Solution Assessment</div>
                     <ul class="plan-features">
-                        <li>Cyber risk assessment</li>
-                        <li>Advisory workshops</li>
-                        <li>Baseline security posture review</li>
+                        <li>Market fit</li>
+                        <li>Sector relevance</li>
+                        <li>Competitive positioning</li>
+                        <li>Compliance alignment</li>
+                        <li>Channel readiness</li>
+                        <li>Only solutions with real potential move forward</li>
+
                     </ul>
-                    <a href="#" class="btn-secondary">Request Assessment</a>
                 </div>
                 
                 <div class="pricing-card">
-                    <div class="plan-name">Advanced Protection</div>
-                    <div class="plan-price">$149</div>
-                    <div class="plan-period">Enterprise & regulated sectors</div>
+                    <div class="plan-name">Market & Solution Assessment</div>
                     <ul class="plan-features">
-                        <li>Managed SOC & MDR</li>
-                        <li>OT/ICS monitoring</li>
-                        <li>Incident response readiness</li>
+                        <li>Market fit</li>
+                        <li>Sector relevance</li>
+                        <li>Competitive positioning</li>
+                        <li>Compliance alignment</li>
+                        <li>Channel readiness</li>
+                        <li>Only solutions with real potential move forward</li>
+
                     </ul>
-                    <a href="#" class="btn-primary">Secure Operations</a>
                 </div>
+
                 
                 <div class="pricing-card">
-                    <div class="plan-name">National-Grade Security</div>
-                    <div class="plan-price">$399</div>
-                    <div class="plan-period">Government & critical infrastructure</div>
+                    <div class="plan-name">Market & Solution Assessment</div>
                     <ul class="plan-features">
-                        <li>Strategic cyber advisory</li>
-                        <li>Offensive security testing</li>
-                        <li>Continuous monitoring & threat intelligence</li>
+                        <li>Market fit</li>
+                        <li>Sector relevance</li>
+                        <li>Competitive positioning</li>
+                        <li>Compliance alignment</li>
+                        <li>Channel readiness</li>
+                        <li>Only solutions with real potential move forward</li>
+
                     </ul>
-                    <a href="#" class="btn-secondary">Engage Experts</a>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Contact Section -->
     <section class="contact fade-up" id="contact">

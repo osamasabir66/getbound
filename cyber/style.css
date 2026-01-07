@@ -691,7 +691,6 @@
         .logo img {
             width: 200px;
             position: relative;
-            top: 10px;
         }
 
         @keyframes blink {
@@ -970,6 +969,7 @@
             color: var(--darker-bg);
             box-shadow: 0 0 30px var(--primary-cyan);
         }
+
 
         /* Features Section */
         .features {
@@ -1693,4 +1693,38 @@
     padding: 3px 35px;
     text-decoration: none;
     display: block;
+}
+
+.sectiontext p{
+        font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin: 16px auto;
+}
+
+.sectiontext h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-cyan);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    position: relative;
+    text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.sectionimages {
+    width: 100%;
+    border-radius: 28px 0 28px 0;
+}
+
+
+        .customsection {
+            padding: 120px 2rem;
+            position: relative;
+        }
+
+.sectiontext li{
+        font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin: 16px auto;
 }
