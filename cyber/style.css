@@ -1146,7 +1146,7 @@
             background: var(--card-bg);
             border: 1px solid var(--border-color);
             padding: 3rem;
-            text-align: center;
+            text-align: left;
             position: relative;
             transition: all 0.4s ease;
             backdrop-filter: blur(10px);
@@ -1213,6 +1213,7 @@
             list-style: none;
             margin-bottom: 3rem;
             text-align: left;
+            padding-left: 0px;
         }
 
         .plan-features li {
@@ -1728,3 +1729,51 @@
     color: var(--text-secondary);
     margin: 16px auto;
 }
+
+.plan-features p{
+    color: #fff
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+
+        .MultiCarousel .MultiCarousel-inner .item { 
+            float: left;    
+            
+        }
+
+    .MultiCarousel .MultiCarousel-inner .item > div { 
+            text-align: left;
+            padding:10px; 
+            margin:10px; 
+    color: #fff;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 3rem;
+            position: relative;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(10px);
+            clip-path: polygon(30px 0%, 100% 0%, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0% 100%, 0% 30px);
+        }
+
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); 
+            background: #0f1124;
+                width: 50px;
+                height: 50px;
+                clip-path: none;
+                outline: none;
+                border: none;
+        
+    }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+                pointer-events: none;
+                background: #0f1124;
+                width: 50px;
+                height: 50px;
+                clip-path: none;
+                outline: none;
+                border: none;
+        }
