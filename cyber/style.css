@@ -1814,3 +1814,5 @@
                 outline: none;
                 border: none;
         }
+
+        .sectiontext p{text-align: justify;}
