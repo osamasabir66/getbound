@@ -1831,3 +1831,19 @@
 .pagetext h2{
     margin-top: 25px;
 }
+
+.mobilenav-section{
+            margin: 16px 0 !important;
+    border-bottom: 1px solid rgba(229, 231, 235, 0.1);
+}
+.mobilenav-section b{ 
+        color: #fff;
+    padding: 1.2rem 1.5rem;
+}
+
+
+.mobilenav-section a{
+        border: none;
+    font-size: 12px;
+    padding: 10px 26px;
+}
