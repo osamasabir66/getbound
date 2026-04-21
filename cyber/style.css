@@ -1847,3 +1847,25 @@
     font-size: 12px;
     padding: 10px 26px;
 }
+
+.sphyrna-logo{
+    width: 120px;
+}
+
+.pagetext a{
+    color: #7c3aed;
+}
+
+.portfolio-card {
+        background: rgba(229, 231, 235, 0.03);
+    border-radius: 16px;
+    padding: 10px 20px;
+    min-height: 500px;
+    backdrop-filter:blur(10px);
+}
+.portfolio-card h2{
+    font-size: 22px;
+}
+.portfolio-card li{
+    font-size: 16px;
+}
